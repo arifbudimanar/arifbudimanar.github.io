@@ -1,4 +1,4 @@
-<layout src="main.html" title="ArifCode · Posts">
+<layout src="main.html" title="My Writing">
 
     <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
         <include 
@@ -8,7 +8,9 @@
         ></include>
 
         <div class="z-50 flex flex-col items-stretch w-full gap-5 my-8">
+            <input type="text" id="searchInput" placeholder="Search posts..." class="w-full h-10 px-3 text-sm border border-dashed rounded-md focus:ring-0 focus:outline-none focus:border-neutral-300 dark:focus:border-neutral-600 border-neutral-300 dark:border-neutral-600 dark:bg-black dark:placeholder-neutral-400 dark:text-white" />
             <include src="posts-loop.html" count="10"></include>
+            <div id="noPostsFound" class="hidden mt-4 text-center text-gray-600">No posts were found.</div>
         </div>
 
     </section>
