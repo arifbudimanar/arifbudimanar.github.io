@@ -4,7 +4,7 @@ description: This is a post about how creating and developing a blog for yoursel
 dateFormatted: July 7th, 2023
 ---
 
-![Banner](https://github.com/arifbudimanar/lali/raw/main/screenshot/Lali.png)
+![Introducing Lali](../../assets/images/posts/introducing-lali.png)
 
 #### Table of Contents
 
