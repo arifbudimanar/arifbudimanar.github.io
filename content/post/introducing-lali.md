@@ -1,7 +1,7 @@
 ---
 title: Introducing Laravel Livewire (Lali) Starter Kit
-description: This is a post about how creating and developing a blog for yourself can be beneficial and how building your audience is important.
-dateFormatted: July 7th, 2023
+description: LaLi (Laravel Livewire) Starter Kit is a powerful foundation for building web applications with the TALL stack.
+dateFormatted: October 25th, 2023
 ---
 
 ![Introducing Lali](../../assets/images/posts/introducing-lali.png)
