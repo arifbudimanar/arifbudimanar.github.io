@@ -19,6 +19,40 @@
         .prose img {
             border-radius: 20px;
         }
+
+        @media (prefers-color-scheme: dark) {
+            ::-webkit-scrollbar {
+                width: 5px;
+                height: 5px;
+                background-color: #0a0a0a;
+            }
+
+            ::-webkit-scrollbar-thumb {
+                background-color: #f4f4f5;
+                border-radius: 5px;
+            }
+
+            ::-webkit-scrollbar-thumb:hover {
+                background-color: #747474;
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            ::-webkit-scrollbar {
+                width: 5px;
+                height: 5px;
+                background-color: #f4f4f5;
+            }
+
+            ::-webkit-scrollbar-thumb {
+                background-color: #404040;
+                border-radius: 5px;
+            }
+
+            ::-webkit-scrollbar-thumb:hover {
+                background-color: #747474;
+            }
+        }
     </style>
     <!-- <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico"> -->
     <link rel="icon" type="image/x-icon" href="/assets/images/logo.png">
