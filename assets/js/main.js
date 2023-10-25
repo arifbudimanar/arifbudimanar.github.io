@@ -175,7 +175,6 @@ window.closeMobileMenu = function(){
     document.getElementById('mobileMenuBackground').classList.add('hidden');
 }
 
-
 document.getElementById('searchInput').addEventListener('input', function() {
     const query = this.value.toLowerCase();
     const posts = document.querySelectorAll('.postItem');
