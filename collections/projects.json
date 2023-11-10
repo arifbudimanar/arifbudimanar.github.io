@@ -16,5 +16,29 @@
     "description": "Better Laravel Extension Pack for a collection of extensions that help you with Laravel development.",
     "image": "/assets/images/projects/better-laravel-extension-pack.png",
     "url": "https://marketplace.visualstudio.com/items?itemName=arifbudimanar.better-laravel-extension-pack"
+  },
+  {
+    "name": "SIMCARATA (Company Project)",
+    "description": "Sistem Informasi Cabang Ranting Muhammadiyah Tegalrejo.",
+    "image": "/assets/images/projects/simcarata.png",
+    "url": "#"
+  },
+  {
+    "name": "Layanan PTSP Online (Company Project)",
+    "description": "Layanan PTSP Online MAN 1 YOGYAKARTA.",
+    "image": "/assets/images/projects/ptsp.png",
+    "url": "#"
+  },
+  {
+    "name": "WPU Laravel",
+    "description": "Blog System Tutorial by Web Programming UNPAS.",
+    "image": "/assets/images/projects/wpu-laravel.png",
+    "url": "https://github.com/arifbudimanar/wpu-laravel"
+  },
+  {
+    "name": "Portofolio Site",
+    "description": "Made with Static.",
+    "image": "/assets/images/projects/portofolio-site.png",
+    "url": "https://github.com/arifbudimanar/arifbudimanar.github.io"
   }
 ]
