@@ -1,7 +1,7 @@
 [
   {
     "name": "Lali (Laravel Livewire) Starter Project",
-    "description": "A powerful foundation for building web applications with the TALL stack.",
+    "description": "The skeleton application for the Laravel starter project with TALL Stack.",
     "image": "/assets/images/projects/lali.png",
     "url": "http://128.199.133.78/"
   },
