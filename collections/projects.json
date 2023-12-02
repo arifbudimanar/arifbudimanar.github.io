@@ -1,21 +1,27 @@
 [
   {
-    "name": "Laravel Livewire (Lali) Starter Kit",
+    "name": "Lali (Laravel Livewire) Starter Project",
     "description": "A powerful foundation for building web applications with the TALL stack.",
     "image": "/assets/images/projects/lali.png",
     "url": "http://128.199.133.78/"
-  },
-  {
-    "name": "ArifCode Theme",
-    "description": "Oceanic dark theme for VS Code and Windows Terminal.",
-    "image": "/assets/images/projects/arifcode-theme.png",
-    "url": "https://marketplace.visualstudio.com/items?itemName=arifbudimanar.arifcode-theme"
   },
   {
     "name": "Better Laravel Extension Pack",
     "description": "Better Laravel Extension Pack for a collection of extensions that help you with Laravel development.",
     "image": "/assets/images/projects/better-laravel-extension-pack.png",
     "url": "https://marketplace.visualstudio.com/items?itemName=arifbudimanar.better-laravel-extension-pack"
+  },
+  {
+    "name": "ArifCode Theme - Original",
+    "description": "Oceanic dark theme for VS Code and Windows Terminal.",
+    "image": "/assets/images/projects/arifcode-theme.png",
+    "url": "https://marketplace.visualstudio.com/items?itemName=arifbudimanar.arifcode-theme"
+  },
+  {
+    "name": "ArifCode Theme - Windows",
+    "description": "Oceanic dark theme for VS Code and Windows Terminal.",
+    "image": "/assets/images/projects/arifcode-theme.png",
+    "url": "https://marketplace.visualstudio.com/items?itemName=arifbudimanar.arifcode-theme-windows"
   },
   {
     "name": "SIMCARATA (Company Project)",

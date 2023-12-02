@@ -1,6 +1,6 @@
 ---
-title: Introducing Laravel Livewire (Lali) Starter Kit
-description: LaLi (Laravel Livewire) Starter Kit is a powerful foundation for building web applications with the TALL stack.
+title: Introducing Lali (Laravel Livewire) Starter Project
+description: The skeleton application for the Laravel starter project with TALL Stack.
 dateFormatted: October 25th, 2023
 ---
 
@@ -15,9 +15,7 @@ dateFormatted: October 25th, 2023
 - [Features](#features)
 - [Installation](#installation)
 
-## Introduction
-
-LaLi (Laravel Livewire) Starter Kit is a powerful foundation for building web applications with the TALL stack.
+Lali - Laravel Livewire Starter Project is The skeleton application for the Laravel starter project with TALL Stack.
 
 - [TailwindCSS](https://tailwindcss.com/)
 - [AlpineJS](https://alpinejs.dev/)
@@ -28,7 +26,7 @@ Build with Livewire full page component and SPA (Single Page Application) with w
 
 ## System Requirements
 
-- PHP 8.1
+- PHP 8.2
 - Composer
 - NodeJS & NPM
 - MySQL
@@ -66,7 +64,6 @@ LaLi comes packed with essential features and a well-structured codebase to get 
 - Main Layout
   - [x] Home
   - [x] Example
-  - [x] About
 - App Layout
   - [x] Dashboard
   - [x] Profile
@@ -79,7 +76,13 @@ LaLi comes packed with essential features and a well-structured codebase to get 
   - [x] Example
 - Admin Layout
   - [x] Dashboard
-  - [x] Users
+    - [x] Total user
+    - [x] Verified email user
+    - [x] Unverified email user
+    - [x] Registered user last month
+    - [x] Latest Created User
+    - [x] Latest Updated User
+  - [x] User
     - [x] Create
     - [x] Index
       - [x] Delete
@@ -87,8 +90,20 @@ LaLi comes packed with essential features and a well-structured codebase to get 
       - [x] Sort By
       - [x] Sort Direction
       - [x] Per Page
-      - [ ] Filter (Not implemented yet, only commented html code)
-      - [ ] Bulk Delete (Pending Feature)
+      - Select - Pending Feature
+        - [ ] Select
+        - [ ] Deselect
+        - [ ] Select All
+        - [ ] Deselect All
+      - Filter - Pending Feature
+        - [ ] Filter by Role (Only commented html code)
+      - Bulk Actions - Pending Feature
+        - [ ] Delete Selected (Only commented html code)
+        - [ ] Verify Selected (Only commented html code)
+        - [ ] Unverify Selected (Only commented html code)
+      - Pagination
+        - [x] Custom Pagination
+        - [x] Custom Simple Pagination
     - [x] Show
     - [x] Edit
   - [x] Example
@@ -102,7 +117,7 @@ LaLi comes packed with essential features and a well-structured codebase to get 
   - [x] 500
   - [x] 503
 - Tested with Pest
-  - [x] Feature Test (189 assertions)
+  - [x] Feature Test (193 assertions)
 - Livewire
   - SPA (Single Page Application) with wire:navigate
   - Full Page Livewire Component
@@ -121,7 +136,7 @@ LaLi comes packed with essential features and a well-structured codebase to get 
 
 ## Installation
 
-### Via [Composer](https://packagist.org/packages/arifbudimanar/lali)
+### Via Composer
 
 1. Create a new project
    ```
@@ -136,7 +151,7 @@ LaLi comes packed with essential features and a well-structured codebase to get 
    php artisan serve
    ```
 
-### Via [Github](https://github.com/arifbudimanar/lali) Clone
+### Via Git Clone
 
 1. Clone this repository
    ```
@@ -162,10 +177,14 @@ LaLi comes packed with essential features and a well-structured codebase to get 
    ```
    php artisan migrate
    php artisan db:seed
-   php artisan db:seed UserSeeder
+   php artisan db:seed Usereeder
    ```
 7. Run the server (Optional)
    ```
    php artisan serve
    ```
 8. Open the browser and go to http://localhost:8000 or http://lali.test
+
+## License
+
+LaLi is open-source software licensed under the [MIT License](https://github.com/arifbudimanar/lali/blob/main/LICENSE). Feel free to use it in your projects, and we appreciate any contributions or feedback you might have.
