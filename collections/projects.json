@@ -1,10 +1,17 @@
 [
   {
-    "name": "Lali (Laravel Livewire) Starter Project",
+    "name": "Lali Pro - Paid",
     "description": "The skeleton application for the Laravel starter project with TALL Stack.",
     "image": "/assets/images/projects/lali.png",
-    "url": "http://128.199.133.78/"
+    "url": "http://143.198.206.231/"
   },
+  {
+    "name": "Lali - Free",
+    "description": "The skeleton application for the Laravel starter project with TALL Stack.",
+    "image": "/assets/images/projects/lali.png",
+    "url": "http://68.183.184.25/"
+  },
+
   {
     "name": "Better Laravel Extension Pack",
     "description": "Better Laravel Extension Pack for a collection of extensions that help you with Laravel development.",
