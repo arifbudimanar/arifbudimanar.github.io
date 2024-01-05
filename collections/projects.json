@@ -25,6 +25,12 @@
     "url": "https://marketplace.visualstudio.com/items?itemName=arifbudimanar.arifcode-theme"
   },
   {
+    "name": "ArifCode Theme - Exclusive",
+    "description": "Oceanic dark theme for VS Code and Windows Terminal.",
+    "image": "/assets/images/projects/arifcode-theme.png",
+    "url": "https://marketplace.visualstudio.com/items?itemName=arifbudimanar.arifcode-theme-exclusive"
+  },
+  {
     "name": "ArifCode Theme - Windows",
     "description": "Oceanic dark theme for VS Code and Windows Terminal.",
     "image": "/assets/images/projects/arifcode-theme.png",
